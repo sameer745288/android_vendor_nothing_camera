@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     libglyph_lights_shim \
     ntcam_offlineproc \
     libofflineproc_shim \
-    CameraReviewTrampoline
+    CameraReviewTrampoline \
+    NothingGallery
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/camera/configs/init.nothing.camera.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.nothing.camera.rc
